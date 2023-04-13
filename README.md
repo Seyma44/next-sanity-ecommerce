@@ -1,8 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+https://user-images.githubusercontent.com/3766249/231868103-09e4a32d-077b-44b4-9fb4-ae6bf1462323.mp4
+
+
 ## Getting Started
 
-First, run the development server:
+To run this project on your local machine, follow these steps:
+
+1. Clone the repository: git clone https://github.com/your-username/next-sanity-commerce.git
+2. Install dependencies: npm install
+3. Create a .env file in the root directory and add the following variables:
+
+```bash
+NEXT_PUBLIC_SANITY_TOKEN=your_sanity_project_id
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+NEXT_PUBLIC_STRIPE_SECRET_KEY==your_stripe_secret_key
+```
+
+Run the development server:
 
 ```bash
 npm run dev
